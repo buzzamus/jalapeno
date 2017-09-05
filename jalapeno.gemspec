@@ -1,3 +1,6 @@
+# -*- encoding: utf-8 -*-
+$LOAD_PATH.push File.expand_path("../lib", __FILE__)
+
 Gem::Specification.new do |s|
 	s.name 			  = "jalapeno"
 	s.version 	  = '0.0.0'
