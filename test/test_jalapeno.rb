@@ -7,11 +7,19 @@ class TestJalapeno < Test::Unit::TestCase
 	end
 
 	def test_movie_quote
-		assert_equal Jalapeno.movies, "#{Movies::QUOTE}"
+		assert_equal Jalapeno.movie, "#{Movies::QUOTE}"
 	end
 
 	def test_book_quote
-		assert_equal Jalapeno.books, "#{Books::QUOTE}"
+		assert_equal Jalapeno.book, "#{Books::QUOTE}"
+	end
+
+	test "original quote displayed should match module original quote" do
+		assert_equal Jalapeno.original, "#{Originals::QUOTE}"
+	end
+
+	test "Music quote displayed should match class music quote" do
+		assert_equal Jalapeno.music, "#{Musics::QUOTE}"
 	end
 
 end
