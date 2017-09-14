@@ -2,7 +2,8 @@ require 'jalapeno/version'
 require 'jalapeno/movies'
 require 'jalapeno/books'
 require 'jalapeno/originals'
-require 'jalapeno/Musics'
+require 'jalapeno/musics'
+require 'jalapeno/famous'
 
 module Jalapeno
 	def self.version_string
@@ -24,4 +25,9 @@ module Jalapeno
 	def self.music
 		"#{Musics::QUOTE}"
 	end
+
+	def self.famous
+		"#{Famous::QUOTE}"
+	end
+
 end
