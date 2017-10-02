@@ -3,8 +3,6 @@ require 'jalapeno/movies'
 require 'jalapeno/books'
 require 'jalapeno/originals'
 require 'jalapeno/musics'
-require 'jalapeno/famous'
-require 'jalapeno/trump'
 
 module Jalapeno
 	def self.version_string
@@ -25,14 +23,6 @@ module Jalapeno
 
 	def self.music
 		"#{Musics::QUOTE}"
-	end
-
-	def self.famous
-		"#{Famous::QUOTE}"
-	end
-
-	def self.trump
-		"#{Trump::QUOTE}"
 	end
 
 end

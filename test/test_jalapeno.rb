@@ -22,13 +22,4 @@ class TestJalapeno < Test::Unit::TestCase
 		assert_equal Jalapeno.music, "#{Musics::QUOTE}"
 	end
 
-	test "Famous quote should match module famous quote" do
-		assert_equal Jalapeno.famous, "#{Famous::QUOTE}"
-	end
-
-	test "Trump quote should match module Trump quote" do
-		assert_equal Jalapeno.trump, "#{Trump::QUOTE}"
-	end
-
-
 end
