@@ -7,7 +7,18 @@ Inject a little spice into your load screens with some random quotes!
 
 * Configuration:
 
-(coming soon)
+	Install Jalapeno:
+
+	```ruby
+	gem install jalapeno
+	```
+
+	Or add to your Gemfile:
+
+	```ruby
+	gem 'jalapeno', '~> 1.0.2'
+	```
+	and run `bundle install`
 
 * How to use:
 
@@ -18,7 +29,7 @@ Call Jalapeno followed by the category of quote you are looking for. Examples:
   ```
 
   ```ruby
-  Jalapeno.famous #generates a famous historical quote
+  Jalapeno.book #generates a famous historical quote
   ```
 
   ...and so on
