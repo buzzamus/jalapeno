@@ -3,6 +3,7 @@ require 'jalapeno/movies'
 require 'jalapeno/books'
 require 'jalapeno/originals'
 require 'jalapeno/musics'
+require 'jalapeno/facts'
 
 module Jalapeno
 	def self.version_string
@@ -23,6 +24,14 @@ module Jalapeno
 
 	def self.music
 		"#{Musics::QUOTE}"
+	end
+
+	def self.fact
+		"#{Facts::TRIVIA}"
+	end
+
+	def self.fake_fact
+		"#{Facts::FAKE}"
 	end
 
 end

@@ -22,4 +22,12 @@ class TestJalapeno < Test::Unit::TestCase
 		assert_equal Jalapeno.music, "#{Musics::QUOTE}"
 	end
 
+	test "Facts displayed should match class facts listed" do
+		assert_equal Jalapeno.fact, "#{Facts::TRIVIA}"
+	end
+
+	test "Fake trivia displayed should match class facts fake trivia listed" do
+		assert_equal Jalapeno.fake_fact, "#{Facts::FAKE}"
+	end
+
 end

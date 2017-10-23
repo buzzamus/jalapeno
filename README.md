@@ -16,7 +16,7 @@ Inject a little spice into your load screens with some random quotes!
 	Or add to your Gemfile:
 
 	```ruby
-	gem 'jalapeno', '~> 1.0.2'
+	gem 'jalapeno', '~> 1.0.4'
 	```
 	and run `bundle install`
 
