@@ -29,7 +29,7 @@ Call Jalapeno followed by the category of quote you are looking for. Examples:
   ```
 
   ```ruby
-  Jalapeno.book #generates a famous historical quote
+  Jalapeno.book #generates a famous (or semi-famous) book quote
   ```
 
   ...and so on
